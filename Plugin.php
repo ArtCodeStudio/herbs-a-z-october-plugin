@@ -7,7 +7,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'JumpLink\KrauterVonABisZ\Components\KrauterList' => 'KrauterList'
+            'JumpLink\KrauterVonABisZ\Components\KrauterList' => 'KrauterList',
+            'JumpLink\KrauterVonABisZ\Components\KrautPage' => 'KrautPage'
         ];
     }
 
