@@ -1,0 +1,6 @@
+plugin:
+    name: 'jumplink.krautervonabisz::lang.plugin.name'
+    description: 'jumplink.krautervonabisz::lang.plugin.description'
+    author: 'Marc Wensauer'
+    icon: oc-icon-book
+    homepage: ''
