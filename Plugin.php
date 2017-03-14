@@ -6,9 +6,14 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'JumpLink\KrauterVonABisZ\Components\KrauterList' => 'KrauterList'
+        ];
     }
 
     public function registerSettings()
     {
     }
 }
+
+
