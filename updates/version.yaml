@@ -1,2 +1,11 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table jumplink_krautervonabisz_krauter'
+    - builder_table_create_jumplink_krautervonabisz_krauter.php
+1.0.3:
+    - 'Updated table jumplink_krautervonabisz_krauter'
+    - builder_table_update_jumplink_krautervonabisz_krauter.php
+1.0.4:
+    - 'Updated table jumplink_krautervonabisz_krauter'
+    - builder_table_update_jumplink_krautervonabisz_krauter_2.php

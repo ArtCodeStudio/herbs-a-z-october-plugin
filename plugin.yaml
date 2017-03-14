@@ -4,3 +4,13 @@ plugin:
     author: 'Marc Wensauer'
     icon: oc-icon-book
     homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Kräuter Lexicon'
+        url: jumplink/krautervonabisz/krauter
+        icon: icon-book
+        sideMenu:
+            side-menu-item:
+                label: Kräuter
+                url: jumplink/krautervonabisz/krauter
+                icon: icon-bookmark
