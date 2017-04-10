@@ -1,0 +1,10 @@
+name: Krauter
+form: $/jumplink/krautervonabisz/models/kraut/fields.yaml
+modelClass: JumpLink\KrauterVonAbisZ\Models\Kraut
+defaultRedirect: jumplink/krautervonabisz/krauter
+create:
+    redirect: 'jumplink/krautervonabisz/krauter/update/:id'
+    redirectClose: jumplink/krautervonabisz/krauter
+update:
+    redirect: jumplink/krautervonabisz/krauter
+    redirectClose: jumplink/krautervonabisz/krauter

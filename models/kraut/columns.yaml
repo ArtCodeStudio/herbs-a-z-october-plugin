@@ -1,0 +1,15 @@
+columns:
+    image:
+        label: Bild
+        path: ~/plugins/jumplink/krautervonabisz/models/kraut/_image.htm
+        type: partial
+    name:
+        label: 'Kraut Name'
+        type: text
+        searchable: true
+        sortable: true
+    name_latein:
+        label: 'Botanischer Name'
+        type: text
+        searchable: true
+        sortable: true

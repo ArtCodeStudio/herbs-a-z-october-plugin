@@ -1,0 +1,27 @@
+fields:
+    name:
+        label: 'Kraut Name'
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        placeholder: 'automatisch ausgefüllt'
+        preset:
+            field: name
+            type: slug
+        type: text
+    name_latein:
+        label: 'Botanischer Name'
+        span: auto
+        type: text
+    image:
+        label: Bild
+        mode: image
+        span: auto
+        type: mediafinder
+    description:
+        label: 'Kraut Beschreibung'
+        size: giant
+        span: auto
+        type: richeditor

@@ -1,0 +1,7 @@
+<?php
+if (is_null($record->image)):
+	echo "none<br>\n";
+else: ?>
+        <img src="<?php echo mediathumbResize($record->image, 'height', 25, 96) ?>">
+<?php endif; ?>
+
