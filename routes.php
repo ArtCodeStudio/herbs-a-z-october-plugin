@@ -10,10 +10,11 @@ Route::post('/send-mail', function () {
             'contact_regard' => post('contact_regard'),
             'mailtemplate' => 'kontakt-krautermichel',//post('mailtemplate'),
             'name' => post('name'),
+            'telefon' => post('telefon'),
             'email' => post('email'),
             'regard' => post('regard'),
             'sendermessage' => post('message'),
-            'email_subject' =>  post('email_subject'),
+            // 'email_subject' =>  post('email_subject'),
         ];
        
      //print_r( $formVars); die;
@@ -24,7 +25,7 @@ Route::post('/send-mail', function () {
         $buildOwnerMessage = function ($message) use ($formVars) {
             // TODO use email and name from backend or theme settings
             $message->to($formVars['receivermail'], $formVars['receivername']);
-            $message->subject($formVars['email_subject']);
+           // $message->subject($formVars['email_subject']);
         };
 
         // mail to site owner
